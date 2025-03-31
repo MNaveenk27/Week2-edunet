@@ -60,7 +60,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-mongoose.connect("mongodb+srv://naveen:TbJcHa3bgf6ioyUL@cluster0.8zbxz.mongodb.net/")
+mongoose.connect("mongodb+srv://uname:password@cluster0.8zbxz.mongodb.net/")
     .then(() => {
         console.log('Connected to MongoDB...');
     })
